@@ -211,44 +211,6 @@ API_PREFIX=/api
 
 ---
 
-
-## 🐛 Troubleshooting
-
-### Stories Not Generating
-
-**Check Groq API key:**
-1. Go to Vercel Dashboard → Settings → Environment Variables
-2. Verify `GROQ_API_KEY` is set correctly
-3. Test at [console.groq.com](https://console.groq.com)
-
-**Check Vercel logs:**
-1. Go to your project on Vercel
-2. Click "Logs" tab
-3. Look for errors during story generation
-
-### Database Errors
-
-**Check Neon connection:**
-1. Go to Vercel Dashboard → Storage
-2. Verify Neon database is connected
-3. Check `POSTGRES_URL` is in environment variables
-
-### Frontend Not Loading
-
-**Check deployment status:**
-1. Go to Vercel Dashboard → Deployments
-2. Verify latest deployment succeeded
-3. Check build logs for errors
-
-### Timeout Errors (504)
-
-**Groq generation takes too long:**
-- Vercel free tier has 10-second timeout
-- Groq usually responds in 8-12 seconds
-- If hitting timeout, upgrade to Vercel Pro ($20/month for 50s timeout)
-
----
-
 ## 💰 Cost Breakdown
 
 ### Current Setup (100% FREE!)
