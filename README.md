@@ -17,7 +17,7 @@ A full-stack choose-your-own-adventure story generator powered by **FREE AI** (G
 
 ## ✨ Features
 
-- 🤖 **FREE AI-powered story generation** using Groq (Llama 3.1)
+- 🤖 **AI-powered story generation** using Groq (Llama 3.1)
 - 🎯 **Balanced gameplay** - 1 winning path, 2 or 3 losing paths per story
 - 🌳 **Multi-level decision trees** - 2 choice points with 4 possible endings
 - 🎨 **Custom themes** - Generate stories for any genre (fantasy, sci-fi, horror, etc.)
@@ -32,7 +32,7 @@ A full-stack choose-your-own-adventure story generator powered by **FREE AI** (G
 
 ### Backend
 - **FastAPI** - Modern Python web framework
-- **Groq** - FREE LLM API (Llama 3.1-8B-Instant)
+- **Groq** - LLM API (Llama 3.1-8B-Instant)
 - **SQLAlchemy** - Database ORM
 - **Neon Postgres** - Serverless PostgreSQL database
 - **Pydantic** - Data validation
@@ -41,7 +41,6 @@ A full-stack choose-your-own-adventure story generator powered by **FREE AI** (G
 ### Frontend
 - **React** - UI library
 - **React Router** - Navigation
-- **Axios** - HTTP client
 - **Vite** - Build tool
 - **Vercel Edge Network** - Global CDN
 
@@ -52,8 +51,6 @@ A full-stack choose-your-own-adventure story generator powered by **FREE AI** (G
 
 ---
 ## 💻 Local Development
-
-Want to run it locally for development?
 
 ### Backend Setup
 
@@ -213,7 +210,7 @@ API_PREFIX=/api
 
 ## 💰 Cost Breakdown
 
-### Current Setup (100% FREE!)
+### Current Setup
 
 | Service | Plan | Cost | Limits |
 |---------|------|------|--------|
@@ -244,13 +241,11 @@ API_PREFIX=/api
 
 ## 💡 Future Enhancements I am looking forward to work upon
 
-- [ ] User accounts and authentication (Clerk/Auth0)
 - [ ] Story sharing with unique URLs
 - [ ] Save game progress
 - [ ] Custom story templates
 - [ ] AI image generation for scenes (DALL-E/Stable Diffusion)
 - [ ] Voice narration (ElevenLabs)
-- [ ] Multiplayer collaborative stories
 - [ ] Story analytics dashboard
 - [ ] Rate limiting and abuse prevention
 - [ ] Story bookmarking and favorites
