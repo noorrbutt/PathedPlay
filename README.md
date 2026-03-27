@@ -275,4 +275,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-**Built with ❤️ by Noor Butt** | [Live Demo](https://pathedplay.vercel.app) 
+**Built with ❤️ by [Noor Butt](https://github.com/noorrbutt)**
