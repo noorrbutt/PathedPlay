@@ -1,4 +1,4 @@
-# 🎮 PathEdPlay - Interactive Story Generator
+# 🎮 PathedPlay - Interactive Story Generator
 
 A full-stack choose-your-own-adventure story generator powered by **FREE AI** (Groq). Create engaging, branching narratives with multiple paths and endings.
 
