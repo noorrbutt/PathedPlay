@@ -22,7 +22,6 @@ A full-stack choose-your-own-adventure story generator powered by **FREE AI** (G
 - 🌳 **Multi-level decision trees** - 2 choice points with 4 possible endings
 - 🎨 **Custom themes** - Generate stories for any genre (fantasy, sci-fi, horror, etc.)
 - ⚡ **Lightning fast** - Stories ready in 5-6 seconds
-- 💾 **Persistent stories** - PostgreSQL database with full story history
 - 🌍 **Deployed on Vercel** - Serverless, auto-scaling, globally distributed
 - 🔒 **Secure database** - Powered by Neon Postgres
 
@@ -243,7 +242,6 @@ API_PREFIX=/api
 
 - [ ] Story sharing with unique URLs
 - [ ] Save game progress
-- [ ] Custom story templates
 - [ ] AI image generation for scenes (DALL-E/Stable Diffusion)
 - [ ] Voice narration (ElevenLabs)
 - [ ] Story analytics dashboard
