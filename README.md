@@ -1,6 +1,6 @@
 # 🎮 PathedPlay - Interactive Story Generator
 
-A full-stack choose-your-own-adventure story generator powered by **FREE AI** (Groq). Create engaging, branching narratives with multiple paths and endings.
+A full-stack choose-your-own-adventure story generator powered by Groq. Create engaging, branching narratives with multiple paths and endings.
 
 > **Note:** This project was inspired by [Tech With Tim's Choose-Your-Own-Adventure-AI](https://github.com/techwithtim/Choose-Your-Own-Adventure-AI). This version uses Groq (free) instead of OpenAI and includes enhanced features like balanced difficulty and improved story generation.
 
