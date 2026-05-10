@@ -11,23 +11,27 @@ parent_dir = os.path.dirname(current_dir)
 if parent_dir not in sys.path:
     sys.path.insert(0, parent_dir)
 
+# Now import the FastAPI app from backend
+from backend.main import app
+
 print(f"[DEBUG] Current dir: {current_dir}")
 print(f"[DEBUG] Parent dir: {parent_dir}")
 print(f"[DEBUG] sys.path: {sys.path}")
 
 try:
-    # Now import the FastAPI app from backend
-    from backend.main import app
+
     print("[SUCCESS] Imported backend.main.app successfully!")
 except ImportError as e:
     print(f"[ERROR] Failed to import backend.main: {e}")
     import traceback
+
     traceback.print_exc()
-    
+
     # Try alternative import
     try:
         print("[DEBUG] Trying alternative import...")
         import backend.main as backend_main
+
         app = backend_main.app
         print("[SUCCESS] Alternative import worked!")
     except Exception as e2:
