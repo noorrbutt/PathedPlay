@@ -242,7 +242,6 @@ API_PREFIX=/api
 
 - [ ] Story sharing with unique URLs
 - [ ] Save game progress
-- [ ] AI image generation for scenes (DALL-E/Stable Diffusion)
 - [ ] Voice narration (ElevenLabs)
 - [ ] Story analytics dashboard
 - [ ] Rate limiting and abuse prevention
