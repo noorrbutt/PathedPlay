@@ -238,17 +238,6 @@ API_PREFIX=/api
 
 ---
 
-## 💡 Future Enhancements I am looking forward to work upon
-
-- [ ] Story sharing with unique URLs
-- [ ] Save game progress
-- [ ] Voice narration (ElevenLabs)
-- [ ] Story analytics dashboard
-- [ ] Rate limiting and abuse prevention
-- [ ] Story bookmarking and favorites
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
