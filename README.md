@@ -13,6 +13,10 @@ A full-stack choose-your-own-adventure story generator powered by Groq. Create e
 
 **Try it now:** [https://pathedplay.vercel.app](https://pathedplay.vercel.app)
 
+**sneak peek:**
+<img width="2350" height="1095" alt="image" src="https://github.com/user-attachments/assets/4403cbda-ceed-44cb-8690-4bb3ec882266" />
+<img width="2113" height="1140" alt="image" src="https://github.com/user-attachments/assets/09028c72-1095-4e66-a8ca-7928e7d1c341" />
+
 ---
 
 ## ✨ Features
