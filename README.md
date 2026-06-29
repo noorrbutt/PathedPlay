@@ -21,13 +21,13 @@ A full-stack choose-your-own-adventure story generator powered by Groq. Create e
 
 ## ✨ Features
 
-- 🤖 **AI-powered story generation** using Groq (Llama 3.1)
-- 🎯 **Balanced gameplay** - 1 winning path, 2 or 3 losing paths per story
-- 🌳 **Multi-level decision trees** - 2 choice points with 4 possible endings
-- 🎨 **Custom themes** - Generate stories for any genre (fantasy, sci-fi, horror, etc.)
-- ⚡ **Lightning fast** - Stories ready in 5-6 seconds
-- 🌍 **Deployed on Vercel** - Serverless, auto-scaling, globally distributed
-- 🔒 **Secure database** - Powered by Neon Postgres
+-  **AI-powered story generation** using Groq (Llama 3.1)
+-  **Balanced gameplay** - 1 winning path, 2 or 3 losing paths per story
+-  **Multi-level decision trees** - 2 choice points with 4 possible endings
+-  **Custom themes** - Generate stories for any genre (fantasy, sci-fi, horror, etc.)
+-  **Lightning fast** - Stories ready in 5-6 seconds
+-  **Deployed on Vercel** - Serverless, auto-scaling, globally distributed
+-  **Secure database** - Powered by Neon Postgres
 
 ---
 
