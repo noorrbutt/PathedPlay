@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     allowed_origins_str: str = Field(default="", validation_alias="ALLOWED_ORIGINS")
     OPENAI_API_KEY: Optional[str] = None
     GROQ_API_KEY: Optional[str] = None
+    GROQ_MODEL: str = "llama-3.3-70b-versatile"
     
     def __init__(self, **values):
         super().__init__(**values)

@@ -119,7 +119,10 @@ Rules:
             print("[StoryGen] Calling Groq API for deeper story...", flush=True)
             
             response = client.chat.completions.create(
-                model="llama-3.1-8b-instant",
+                # Updated model id — llama-3.1-8b-instant has been deprecated by Groq.
+                # Verify current supported models at https://console.groq.com/docs/models
+                # before deploying; Groq periodically retires model ids.
+                model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
                 messages=[
                     {"role": "system", "content": "You are a creative story writer. Output only valid JSON with the exact structure requested."},
                     {"role": "user", "content": prompt}
