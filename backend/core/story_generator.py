@@ -119,14 +119,16 @@ Rules:
             print("[StoryGen] Calling Groq API for deeper story...", flush=True)
             
             response = client.chat.completions.create(
-            model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
-            messages=[...],              # unchanged
-            temperature=0.8,
-            max_tokens=4000,             # was 2000
-            reasoning_effort="low",      # keeps thinking short
-            timeout=45
+                model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
+                messages=[
+                    {"role": "system", "content": "You are a creative story writer. Output only valid JSON with the exact structure requested."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.8,
+                max_tokens=4000,
+                reasoning_effort="low",
+                timeout=45
             )
-            
             response_text = response.choices[0].message.content
             print(f"[StoryGen] Got response: {len(response_text)} chars", flush=True)
             
